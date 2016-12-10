@@ -1,0 +1,8 @@
+Robot uklízi v mistnosti a do místnosti vkroči človek - robot se přesune do volné mistnosti.
+Nekdo zvedne robota  -  robot to oznamí řidícímu systemu.
+Robot se přesunuje z mistnosti do mistnosti, ale dveře nejdou otevřít - robot požádá řídíci system o novou náhradni cestu.
+Robot uklizi, hodnota jeho baterie klesne pod určitou mez - robot se jde nabit.
+V místnosti se stane nepořádek (např. vylije se kafe), nekdo zadá externí přikaz na uklizení pokoje - vybere se nejbližší robot - pošle se do mistnosti a uklidi mistnost.
+Robot se chce nabít, ale v Power station je plno - skontroluje svuj stav baterie, pokud je dostačující přesune se k jine Power station, pokud ne počka na uvolněni te u které je.
+Robot prestane komunikovat s řídícim system - řidici system to oznámi spravci a zobrazí jeho poslední známou polohu.
+Řídicí system detekuje mistnost, ve které nebylo dlouho uklizene - nelezne čas, ve kterem ne nejvetší pravděpodobnost, že tam nikdo nebude - nelezne nejbližšího robota - pošle ho tam aby uklidil.
